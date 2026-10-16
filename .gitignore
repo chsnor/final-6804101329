@@ -1,0 +1,5 @@
+# dependencies
+node_modules/
+
+# Playwright test artifacts (reports are committed on purpose)
+test-results/

@@ -1,0 +1,13 @@
+{
+  "name": "final-exam",
+  "version": "1.0.0",
+  "description": "Playwright end-of-term exam: Software Testing on https://www.saucedemo.com/",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}

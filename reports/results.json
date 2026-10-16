@@ -1,0 +1,753 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\playwright.config.ts",
+    "rootDir": "C:/Users/Lab3/Downloads/t/final-exam/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Lab3/Downloads/t/final-exam/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Lab3/Downloads/t/final-exam/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "chromium",
+        "testDir": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests",
+        "snapshotDir": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://www.saucedemo.com",
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "video": "retain-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "integration\\IT-01.spec.ts",
+      "file": "integration/IT-01.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "IT-01: top-down REAL Login -> browser-level Inventory STUB",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "description",
+                  "description": "ทดสอบ Login จริงร่วมกับ Inventory Stub ที่จำลองด้วย page.setContent()",
+                  "location": {
+                    "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\integration\\IT-01.spec.ts",
+                    "line": 3,
+                    "column": 5
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 999,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Login ผ่านหน้าเว็บไซต์จริง",
+                      "duration": 626
+                    },
+                    {
+                      "title": "สร้าง Inventory Stub",
+                      "duration": 13
+                    },
+                    {
+                      "title": "ตรวจสอบผลจาก Stub",
+                      "duration": 58
+                    }
+                  ],
+                  "startTime": "2026-10-16T07:25:38.453Z",
+                  "annotations": [
+                    {
+                      "type": "description",
+                      "description": "ทดสอบ Login จริงร่วมกับ Inventory Stub ที่จำลองด้วย page.setContent()",
+                      "location": {
+                        "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\integration\\IT-01.spec.ts",
+                        "line": 3,
+                        "column": 5
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aeaf4dcca87754465641-6a93853910bbaba5daba",
+          "file": "integration/IT-01.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "integration\\IT-02.spec.ts",
+      "file": "integration/IT-02.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "IT-02: DRIVER login state -> REAL Inventory and Cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "description",
+                  "description": "ใช้ Driver เตรียมสถานะ Login เพื่อทดสอบ Inventory และ Cart จริง",
+                  "location": {
+                    "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\integration\\IT-02.spec.ts",
+                    "line": 26,
+                    "column": 5
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 874,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "สร้าง Driver และเปิด Inventory",
+                      "duration": 562
+                    },
+                    {
+                      "title": "ตรวจสอบ Inventory จริง",
+                      "duration": 8
+                    },
+                    {
+                      "title": "เพิ่มสินค้า 2 รายการ",
+                      "duration": 106
+                    },
+                    {
+                      "title": "ตรวจสอบสินค้าใน Cart",
+                      "duration": 99
+                    }
+                  ],
+                  "startTime": "2026-10-16T07:25:39.658Z",
+                  "annotations": [
+                    {
+                      "type": "description",
+                      "description": "ใช้ Driver เตรียมสถานะ Login เพื่อทดสอบ Inventory และ Cart จริง",
+                      "location": {
+                        "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\integration\\IT-02.spec.ts",
+                        "line": 26,
+                        "column": 5
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fa6bfb55dc95b1f15b3-0a804e4898f3b2703bff",
+          "file": "integration/IT-02.spec.ts",
+          "line": 26,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "system\\ST-01.spec.ts",
+      "file": "system/ST-01.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ST-01: complete purchase of two products",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "description",
+                  "description": "ทดสอบการซื้อ Backpack และ Bike Light ตั้งแต่ Login จนสั่งซื้อสำเร็จ",
+                  "location": {
+                    "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\system\\ST-01.spec.ts",
+                    "line": 3,
+                    "column": 5
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1141,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Login และตรวจสอบ Inventory",
+                      "duration": 566
+                    },
+                    {
+                      "title": "เพิ่มสินค้าสองรายการ",
+                      "duration": 84
+                    },
+                    {
+                      "title": "ตรวจสอบ Cart",
+                      "duration": 70
+                    },
+                    {
+                      "title": "กรอก Checkout Information",
+                      "duration": 160
+                    },
+                    {
+                      "title": "ตรวจสอบ Overview และสั่งซื้อ",
+                      "duration": 67
+                    },
+                    {
+                      "title": "ตรวจสอบ Order Complete",
+                      "duration": 41
+                    }
+                  ],
+                  "startTime": "2026-10-16T07:25:40.552Z",
+                  "annotations": [
+                    {
+                      "type": "description",
+                      "description": "ทดสอบการซื้อ Backpack และ Bike Light ตั้งแต่ Login จนสั่งซื้อสำเร็จ",
+                      "location": {
+                        "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\system\\ST-01.spec.ts",
+                        "line": 3,
+                        "column": 5
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b437a3ea838a6734331f-68d25959565fafbf0274",
+          "file": "system/ST-01.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "system\\ST-02.spec.ts",
+      "file": "system/ST-02.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ST-02: checkout validation and recovery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "description",
+                  "description": "ตรวจสอบ Checkout Validation และการแก้ไขข้อมูลจนสั่งซื้อสำเร็จ",
+                  "location": {
+                    "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\system\\ST-02.spec.ts",
+                    "line": 3,
+                    "column": 5
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1317,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Login เพิ่มสินค้า และเปิด Checkout",
+                      "duration": 724
+                    },
+                    {
+                      "title": "ตรวจสอบ First Name is required",
+                      "duration": 71
+                    },
+                    {
+                      "title": "ตรวจสอบ Last Name is required",
+                      "duration": 91
+                    },
+                    {
+                      "title": "ตรวจสอบ Postal Code is required",
+                      "duration": 99
+                    },
+                    {
+                      "title": "แก้ไขข้อมูลและสั่งซื้อสำเร็จ",
+                      "duration": 172
+                    }
+                  ],
+                  "startTime": "2026-10-16T07:25:41.706Z",
+                  "annotations": [
+                    {
+                      "type": "description",
+                      "description": "ตรวจสอบ Checkout Validation และการแก้ไขข้อมูลจนสั่งซื้อสำเร็จ",
+                      "location": {
+                        "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\system\\ST-02.spec.ts",
+                        "line": 3,
+                        "column": 5
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "56c0a83e2e23481adf32-fcdcf2d10841c1c1d778",
+          "file": "system/ST-02.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "unit\\UT-01.spec.ts",
+      "file": "unit/UT-01.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "UT-01: Login Form Validation",
+          "file": "unit/UT-01.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "UT-01.1: empty username and password",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "description",
+                      "description": "ตรวจสอบการ Login เมื่อไม่กรอก Username และ Password",
+                      "location": {
+                        "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\unit\\UT-01.spec.ts",
+                        "line": 4,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 717,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "เปิดหน้า Login",
+                          "duration": 431
+                        },
+                        {
+                          "title": "ส่งฟอร์มโดยไม่กรอกข้อมูล",
+                          "duration": 59
+                        },
+                        {
+                          "title": "ตรวจสอบ Error และ URL",
+                          "duration": 25
+                        }
+                      ],
+                      "startTime": "2026-10-16T07:25:43.037Z",
+                      "annotations": [
+                        {
+                          "type": "description",
+                          "description": "ตรวจสอบการ Login เมื่อไม่กรอก Username และ Password",
+                          "location": {
+                            "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\unit\\UT-01.spec.ts",
+                            "line": 4,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8c739bc89a6720d0c629-54f4b4234188f85dc805",
+              "file": "unit/UT-01.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "UT-01.2: missing password",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "description",
+                      "description": "ตรวจสอบการ Login เมื่อกรอก Username แต่ไม่กรอก Password",
+                      "location": {
+                        "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\unit\\UT-01.spec.ts",
+                        "line": 26,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 687,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "เปิดหน้า Login และกรอก Username",
+                          "duration": 390
+                        },
+                        {
+                          "title": "กด Login โดยไม่กรอก Password",
+                          "duration": 56
+                        },
+                        {
+                          "title": "ตรวจสอบ Error และ URL",
+                          "duration": 18
+                        }
+                      ],
+                      "startTime": "2026-10-16T07:25:43.763Z",
+                      "annotations": [
+                        {
+                          "type": "description",
+                          "description": "ตรวจสอบการ Login เมื่อกรอก Username แต่ไม่กรอก Password",
+                          "location": {
+                            "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\unit\\UT-01.spec.ts",
+                            "line": 26,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8c739bc89a6720d0c629-416b2ace0476596fcfd7",
+              "file": "unit/UT-01.spec.ts",
+              "line": 26,
+              "column": 7
+            },
+            {
+              "title": "UT-01.3: invalid login details",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "description",
+                      "description": "ตรวจสอบการ Login เมื่อ Username และ Password ไม่ถูกต้อง",
+                      "location": {
+                        "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\unit\\UT-01.spec.ts",
+                        "line": 45,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 711,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "เปิดหน้า Login และกรอกข้อมูลผิด",
+                          "duration": 412
+                        },
+                        {
+                          "title": "กด Login",
+                          "duration": 56
+                        },
+                        {
+                          "title": "ตรวจสอบ Error และ URL",
+                          "duration": 17
+                        }
+                      ],
+                      "startTime": "2026-10-16T07:25:44.459Z",
+                      "annotations": [
+                        {
+                          "type": "description",
+                          "description": "ตรวจสอบการ Login เมื่อ Username และ Password ไม่ถูกต้อง",
+                          "location": {
+                            "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\unit\\UT-01.spec.ts",
+                            "line": 45,
+                            "column": 7
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8c739bc89a6720d0c629-40c069adb5013c050578",
+              "file": "unit/UT-01.spec.ts",
+              "line": 45,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "unit\\UT-02.spec.ts",
+      "file": "unit/UT-02.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "UT-02: product button state Add to cart -> Remove -> Add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "description",
+                  "description": "ตรวจสอบสถานะปุ่ม Add to cart และ Remove รวมถึง Cart Badge",
+                  "location": {
+                    "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\unit\\UT-02.spec.ts",
+                    "line": 3,
+                    "column": 5
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 921,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Login เข้าสู่ระบบ",
+                      "duration": 552
+                    },
+                    {
+                      "title": "ตรวจสอบปุ่มก่อนเพิ่มสินค้า",
+                      "duration": 25
+                    },
+                    {
+                      "title": "เพิ่มสินค้าเข้า Cart",
+                      "duration": 42
+                    },
+                    {
+                      "title": "ลบสินค้าออกจาก Cart",
+                      "duration": 45
+                    }
+                  ],
+                  "startTime": "2026-10-16T07:25:45.182Z",
+                  "annotations": [
+                    {
+                      "type": "description",
+                      "description": "ตรวจสอบสถานะปุ่ม Add to cart และ Remove รวมถึง Cart Badge",
+                      "location": {
+                        "file": "C:\\Users\\Lab3\\Downloads\\t\\final-exam\\tests\\unit\\UT-02.spec.ts",
+                        "line": 3,
+                        "column": 5
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6c91503e0156bd8f2507-e7443e8816072dd5f9a1",
+          "file": "unit/UT-02.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-16T07:25:37.876Z",
+    "duration": 8492.552,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
